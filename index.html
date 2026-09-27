@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>像素游戏 · 雪天</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <canvas id="game"></canvas>
+  <div id="panel"></div>
+
+  <!-- 加载顺序很重要：配置 → 数据 → 逻辑 → 面板 → 入口 -->
+  <script src="js/config.js"></script>
+  <script src="data/player-pixel.js"></script>
+  <script src="data/snow-shapes.js"></script>
+  <script src="data/tree-pixel.js"></script>
+  <script src="js/particles.js"></script>
+  <script src="js/weather.js"></script>
+  <script src="js/renderer.js"></script>
+  <script src="js/panel.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+# 操作系统生成的垃圾文件
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+.DS_Store
+
+# 编辑器 / IDE 目录
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 本地环境与密钥（防止误提交）
+.env
+.env.*
+*.key
+*.pem
+secrets.json
+
+# 临时文件与日志
+*.log
+*.tmp
+*.bak
+_*.png
